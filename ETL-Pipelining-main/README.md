@@ -116,35 +116,13 @@ https://cloud.google.com/composer/docs
 **Final Prediction Visualization Report**
 ![Prediction Schema](results/final_prediction_report.png)
 
+ Additionally, I created a Power BI dashboard by connecting Google Cloud Platform (GCP) to Power BI, enabling interactive visualizations and real-time insights from the processed data.
+![image](https://github.com/user-attachments/assets/a4b7767e-a951-4307-b9ae-cc23ef49ccc0)
 
-## How to Use
-**Step 01: - Sign in on the Google Cloud Platform (GCP) using the GCP credentials**
-
-**Environment Credentials (Google Composer): -**
-
-     gmail id: - ***************@gmail.com
-     Password: - ***************
-
-**Step 02:- Once logged in create a project named "info607etl" and select it.**
-
-**Step 03:- Create a bucket in the cloud storage where the source data files will be stored under the folder covid19/**
+This dashboard provides a comprehensive view of COVID-19 trends, leveraging BigQuery data to drive data-driven decision-making.
 
 
-**Step 04:- For the project execution, first create all the required BigQuery tables in the Bigquery utility by referring the dag files**
 
-
-**Step 05:- Then go to the composer screen and launch the Airflow webserver wherein just run the created DAG named "CovidWarehouse" and you can see the etl pipeline executing.**
-
-**Step 06: - Also, do check in the Airflow GUI there will be /dags folder to check the code we are utilizing to execute the automated workflow scheduling for ETL pipelining through dag scripts written in python.**
-
-**Step 07: - Cross verify the output with BigQuery and check whether all the data has been properly transferred to the staging, preprocessing and final tables or not. Query and check the outputs.**
-
-
-**Step 08: - Finally check the prediction results using the tool LookStudio. (Google Lookstudio is a tool that directly gets connected with your BigQuery and GCP Interface).**
-
-**Step 09:- You can watcch the demo of the project by referring the following link:-****
-
-https://shorturl.at/imMR7
 
 
 
