@@ -121,8 +121,7 @@ https://cloud.google.com/composer/docs
 **Predictions**
 ![Prediction Schema](results/predictions_finalist.png)
 
-**Final Prediction Visualization Report**
-![Prediction Schema](results/final_prediction_report.png)
+
 
  Additionally, I created a Power BI dashboard by connecting Google Cloud Platform (GCP) to Power BI, enabling interactive visualizations and real-time insights from the processed data.
 ![image](https://github.com/user-attachments/assets/a4b7767e-a951-4307-b9ae-cc23ef49ccc0)
