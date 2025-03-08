@@ -1,9 +1,16 @@
-**##Project Title:-**
+## Project Title:-
 
 
-**Implementing an ETL Pipeline Using Big Query and Airflow for Covid-19 Data****
+## COVID-19 Data Analytics Pipeline: ETL, ML, and Real-Time Insights
 
 ## **Architecture Overview**
+🚀 Overview
+Problem:
+
+Public health organizations needed real-time insights into COVID-19 trends but struggled with fragmented data sources (CSV, JSON, Excel) and slow, manual processing.
+
+Solution: Designed a scalable ETL pipeline using Apache Airflow and Google BigQuery to automate data ingestion, transformation, and analysis of 10M+ records. Integrated machine learning models and Power BI dashboards to deliver actionable predictions and visualizations.
+
 ![architecture](results/system_architecture.jpg)
 
 ## **Data Sources**
@@ -18,6 +25,7 @@
 3. Google Cloud Storage (GCS)
 4. Google BigQuery
 5. Google Composer
+6. Power BI
 
 ## **Installation Setup**
 ### Setup the Computing Environment
