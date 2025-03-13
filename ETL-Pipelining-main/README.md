@@ -11,7 +11,8 @@ Public health organizations needed real-time insights into COVID-19 trends but s
 
 Solution: Designed a scalable ETL pipeline using Apache Airflow and Google BigQuery to automate data ingestion, transformation, and analysis of 10M+ records. Integrated machine learning models and Power BI dashboards to deliver actionable predictions and visualizations.
 
-![architecture](results/system_architecture.jpg)
+![image](https://github.com/user-attachments/assets/f29be347-4c17-48ec-9f88-1a51ceded320)
+
 
 ## **Data Sources**
 1. Kaggle
