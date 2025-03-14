@@ -15,7 +15,7 @@ PROCESSED_DATASET = "covid19_processed_dataset"
 LOCATION = "us-central1" 
 
 default_args = {
-    'owner': 'Rohit_Annasaheb_Ragde',
+    'owner': 'Disha Yadav',
     'depends_on_past': False,
     'email_on_failure': False,
     'email_on_retry': False,
